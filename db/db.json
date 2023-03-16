@@ -1,6 +1,7 @@
+
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title":"Note App",
+        "text":"Create note taking app using express.js"
     }
 ]
