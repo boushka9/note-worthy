@@ -73,7 +73,6 @@ const renderActiveNote = () => {
 
 // newNote consists of title and text values, once newNote exists, pass it into functions to read/render notes
 const handleNoteSave = () => {
-  debugger;
   const newNote = {
     title: noteTitle.value,
     text: noteText.value,
