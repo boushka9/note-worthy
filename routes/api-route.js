@@ -10,7 +10,7 @@ router.get('/notes', function (req, res) {
       .then((notes) => res.json(JSON.parse(notes)))
 })
   
-// Display specific note by id
+// Display specific note by id, ead all notes, then convert to json obj and filter for note.id and return resulting array
 router.get('/notes:id', (req, res) => {
      const noteId = req.params.id;
      readAllNotes('./db/db.json')
@@ -34,13 +34,13 @@ router.post('/notes', (req, res) => {
 
     res.json(newNote);
 
-    console.log(newNote);
+    console.log(newNote + 'New note successfully added');
 
 })
   
 // remove individual notes by id w 'uuid' 
 router.delete('/notes/:id', (req, res) => {
-    console.log('delete')
+    console.log('Note successfully deleted')
     const noteId = req.params.id;
     readAllNotes('./db/db.json')
         .then((notes) => JSON.parse(notes))
@@ -49,7 +49,7 @@ router.delete('/notes/:id', (req, res) => {
 
             writeAllNotes('./db/db.json', result);
             
-            res.json({message: 'Success'})
+            res.json({message: 'Successfully deleted'})
         })
 })
   
