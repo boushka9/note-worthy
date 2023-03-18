@@ -1,8 +1,50 @@
+:root {
+  --pop: #2a9d8f;
+  --dark: #264653;
+  --danger: #e76f51;
+  --bright: #e9c976;
+  --light: #fff;
+}
+
 html,
 body {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+.navbar {
+  background-color: var(--pop) !important;
+}
+
+.display-4, .mt-4 {
+  color: var(--dark);
+}
+
+a[href]:hover {
+  color: var(--dark) !important;
+}
+
+.container {
+  background-color: var(--bright);
+  border-radius: 20px;
+}
+
+i.fa-pen-to-square {
+  font-size: 1.8rem;
+}
+
+.btn {
+  background-color: var(--dark);
+  margin-top: 1.5rem; 
+  color: var(--light);
+}
+
+.btn:hover {
+  color: var(--light);
+  background-color: var(--dark);
+  padding-bottom: 0.6rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .save-note {
@@ -16,9 +58,25 @@ body {
   cursor: pointer;
 }
 
+i.save-note:hover, 
+i.new-note:hover {
+  color: var(--bright) !important;
+  font-size: 1.7rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.delete-note {
+  color: var(--danger)
+}
+
+.delete-note:hover {
+  font-size: 1.3rem;
+  transition: all 0.3s ease-in-out;
+}
+
 .note-textarea,
 .note-title {
-  color: #000000;
+  color: var(--dark);
   width: 100%;
   outline: none;
   border: none;
@@ -38,7 +96,7 @@ body {
 
 .note-title:read-only,
 .note-textarea:read-only {
-  color: #757575;
+  color: var(--dark);
 }
 
 .list-container .card {

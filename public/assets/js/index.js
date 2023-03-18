@@ -164,7 +164,6 @@ const renderNoteList = async (notes) => {
         'fas',
         'fa-trash-alt',
         'float-right',
-        'text-danger',
         'delete-note'
       );
       delBtnEl.addEventListener('click', handleNoteDelete);

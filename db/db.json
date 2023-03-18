@@ -1,7 +1,37 @@
 [
   {
-    "title": "Title",
-    "text": "NOTE",
+    "title": "Buy post-it notes",
+    "text": "Pink and yellow post-its for class notes",
     "id": "893673d5-05e7-479c-8548-a870fd0e8695"
+  },
+  {
+    "title": "Do laundry",
+    "text": "Fold and put away after!!",
+    "id": "2a713e6f-1882-43e3-b3a4-1a82ce89414e"
+  },
+  {
+    "title": "Dog Food",
+    "text": "Purina Pro - low fat/weight loss ",
+    "id": "6d3cf3be-5e4b-4fea-bfb1-30cd404a9d20"
+  },
+  {
+    "title": "Groceries ",
+    "text": "Strawberries, bagels (blueberry & plain), oat milk (3 cartons), chicken breast, salad mix ",
+    "id": "cf1f4dcc-eee8-4e3f-9c61-ba384584afe1"
+  },
+  {
+    "title": "License ",
+    "text": "Call Price County courthouse to find out if they gave you a ticket for your car crash and see if that's why your license was suspended...",
+    "id": "796f7f6e-2172-4ce7-8e3b-b9b3efb49214"
+  },
+  {
+    "title": "Call Hayley",
+    "text": "Find out when she's back from paris and set up a time to chat",
+    "id": "411df1e9-e33e-461a-b582-255556d043f1"
+  },
+  {
+    "title": "Call Vet",
+    "text": "Ask about Scouts thyroid test/next steps",
+    "id": "8e3abdcf-cf21-431d-9bb2-4b243a11bf9b"
   }
 ]
