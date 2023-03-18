@@ -1,39 +1,7 @@
 [
   {
-    "title": "Note App",
-    "text": "Create note taking app using express.js"
-  },
-  {
-    "title": "Hello",
-    "text": "World!",
-    "id": "632e7723-c217-4ee8-b6c3-40e9d6bba36a"
-  },
-  {
-    "title": "Will this save?",
-    "text": "Let's find out...",
-    "id": "a37e8bcb-21cb-4868-a5fa-463d2e35a687"
-  },
-  {
-    "title": "Weird lag w save..",
-    "text": "When I press save and then hit the trashcan on a prev note, then this will populate on the left. Let's see if it works with a refresh..",
-    "id": "5d81d008-5c51-4df8-8956-2e59232b2575"
-  },
-  {
-    "title": "You have to refresh to save",
-    "text": "Saved note only appears on the left with refresh.",
-    "id": "b473ed8d-ba79-4c65-ad88-8ed9ab5636e4"
-  },
-  {
-    "id": "dd72de99-12eb-430e-93ea-e95f6fc03335"
-  },
-  {
-    "title": "Check",
-    "text": "check",
-    "id": "578e3bea-314b-41af-a475-b5a1189f03d4"
-  },
-  {
-    "title": "jk",
-    "text": "jk",
-    "id": "8126f3b3-6a3b-404e-aa1f-b5e403db071c"
+    "title": "Title",
+    "text": "NOTE",
+    "id": "893673d5-05e7-479c-8548-a870fd0e8695"
   }
 ]
