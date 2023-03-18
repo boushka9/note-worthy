@@ -15,7 +15,7 @@
 
   ## Installation
 
-  This application is deployed at and the code can be cloned at https://github.com/boushka9/note-worthy
+  This application is deployed at https://note-worthy-notes.herokuapp.com/ and the code can be cloned at https://github.com/boushka9/note-worthy
 
   ## Usage
 
