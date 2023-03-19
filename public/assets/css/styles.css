@@ -21,7 +21,7 @@ body {
   color: var(--dark);
 }
 
-a[href]:hover {
+[href="/"]:hover {
   color: var(--dark) !important;
 }
 
